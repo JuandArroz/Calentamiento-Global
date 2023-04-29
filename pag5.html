@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio Climatico</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .div2{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -30%);
+        }
+
+        input, textarea{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: #fff;
+            border: none;
+            width: 500px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="center">Contactanos</h1>
+    <div class="div0"><a href="../index.html"><button class="but2">Volver</button></a></div>
+    
+    <fieldset>
+
+        <table align="center" class="tdspace">
+
+            <tr>
+                <td><a href="pag1.html" class="nodec"><button type="button">'¿Qué es?'</button></a></td>
+                <td><a href="pag2.html" class="nodec"><button type="button">Causas</button></a></td>
+                <td><a href="pag3.html" class="nodec"><button type="button">Incidencia del hombre</button></a></td>
+                <td><a href="pag4.html" class="nodec"><button type="button">¿Cómo evitarlo?</button></a></td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+
+    <div class="div2">
+        <fieldset class="field2">
+            <form align="left">
+                <label for="nombre"><h4 class="subtitulo">Tu nombre (Obligatorio)</h4></label>
+                <input type="text" name="nombre" required><br><br>
+                <label for="correo"><h4 class="subtitulo">Tu correo (Obligatorio)</h4></label>
+                <input type="text" name="correo" required><br><br>
+                <label for="asunto"><h4 class="subtitulo">Asunto</h4></label>
+                <input type="text" name="asunto"><br><br>
+                <label for="numero"><h4 class="subtitulo">Tu numero telefonico (Obligatorio)</h4></label>
+                <input type="number" name="numero" required><br><br>
+                <label for="mensaje"><h4 class="subtitulo">Tu mensaje</h4></label>
+                <textarea name="mensaje"></textarea><br><br>
+                <input type="submit">
+            </form>
+        </fieldset>
+    </div>
+
+    <footer class="fondo"><img src="descargar.png" width="160" height="40"></footer>
+</body>
+</html>
